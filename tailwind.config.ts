@@ -3,6 +3,52 @@ import type { Config } from "tailwindcss";
 export default {
   darkMode: ["class"],
   content: ["./client/index.html", "./client/src/**/*.{js,jsx,ts,tsx}"],
+  safelist: [
+    // Custom CSS animation classes
+    'scrolling-text',
+    'text-reveal',
+    'floating-animation',
+    'menu-hover',
+    'menu-button',
+    'portfolio-hover',
+    'logo-hover',
+    'hero-grid',
+    'glow-effect',
+    'menu-slide-animation',
+    'backdrop-fade',
+    'stagger-1',
+    'stagger-2', 
+    'stagger-3',
+    'stagger-4',
+    'stagger-5',
+    // Tailwind animation classes
+    'animate-text-reveal',
+    'animate-fade-in',
+    'animate-slide-up',
+    'animate-accordion-down',
+    'animate-accordion-up',
+    // Transform and motion classes that might be purged
+    'transform-gpu',
+    // Pattern-based safelisting for dynamic classes
+    {
+      pattern: /^(transform|translate|rotate|scale|skew)-.*/
+    },
+    {
+      pattern: /^animate-.*/
+    },
+    {
+      pattern: /^transition-.*/
+    },
+    {
+      pattern: /^duration-.*/
+    },
+    {
+      pattern: /^ease-.*/
+    },
+    {
+      pattern: /^delay-.*/
+    }
+  ],
   theme: {
     extend: {
       borderRadius: {
