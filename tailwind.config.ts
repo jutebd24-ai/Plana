@@ -4,7 +4,7 @@ export default {
   darkMode: ["class"],
   content: ["./client/index.html", "./client/src/**/*.{js,jsx,ts,tsx}"],
   safelist: [
-    // Custom CSS animation classes
+    // Custom CSS animation classes - Force git to detect change
     'scrolling-text',
     'text-reveal',
     'floating-animation',
