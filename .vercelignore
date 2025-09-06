@@ -1,0 +1,11 @@
+server/
+shared/
+*.md
+README.md
+replit.md
+.replit
+replit.nix
+tsconfig.json
+tailwind.config.ts
+postcss.config.js
+components.json
