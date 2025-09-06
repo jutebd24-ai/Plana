@@ -1,0 +1,49 @@
+[23:55:05.889] Running build in Washington, D.C., USA (East) – iad1
+[23:55:05.890] Build machine configuration: 2 cores, 8 GB
+[23:55:05.910] Cloning github.com/jutebd24-ai/Plana (Branch: main, Commit: 74325fe)
+[23:55:06.338] Cloning completed: 428.000ms
+[23:55:06.434] Found .vercelignore
+[23:55:06.445] Removed 10 ignored files defined in .vercelignore
+[23:55:06.445]   /.replit
+[23:55:06.445]   /client/src/README.md
+[23:55:06.445]   /components.json
+[23:55:06.446]   /postcss.config.js
+[23:55:06.446]   /README.md
+[23:55:06.447]   /replit.md
+[23:55:06.447]   /server/index.ts
+[23:55:06.447]   /shared/types.ts
+[23:55:06.447]   /tailwind.config.ts
+[23:55:06.447]   /tsconfig.json
+[23:55:07.215] Restored build cache from previous deployment (2DkqKjVM4TCUGjQYURpafwRpjJvx)
+[23:55:07.706] Running "vercel build"
+[23:55:08.083] Vercel CLI 47.0.5
+[23:55:08.250] WARN! Due to `builds` existing in your configuration file, the Build and Development Settings defined in your Project Settings will not apply. Learn More: https://vercel.link/unused-build-settings
+[23:55:08.665] Installing dependencies...
+[23:55:10.014] 
+[23:55:10.015] up to date in 1s
+[23:55:10.016] 
+[23:55:10.016] 64 packages are looking for funding
+[23:55:10.016]   run `npm fund` for details
+[23:55:10.050] Running "npm run build"
+[23:55:10.157] 
+[23:55:10.158] > rest-express@1.0.0 build
+[23:55:10.158] > vite build && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist
+[23:55:10.159] 
+[23:55:10.443] [36mvite v5.4.19 [32mbuilding for production...[36m[39m
+[23:55:10.499] transforming...
+[23:55:14.546] [32m✓[39m 2075 modules transformed.
+[23:55:14.989] rendering chunks...
+[23:55:15.003] computing gzip size...
+[23:55:15.026] [2m../dist/public/[22m[32mindex.html                 [39m[1m[2m  2.20 kB[22m[1m[22m[2m │ gzip:   0.86 kB[22m
+[23:55:15.027] [2m../dist/public/[22m[2massets/[22m[35mindex-D-_OLz4s.css  [39m[1m[2m  4.70 kB[22m[1m[22m[2m │ gzip:   1.39 kB[22m
+[23:55:15.027] [2m../dist/public/[22m[2massets/[22m[36mindex-Bzhh85in.js   [39m[1m[33m783.89 kB[39m[22m[2m │ gzip: 220.27 kB[22m
+[23:55:15.027] [33m
+[23:55:15.027] (!) Some chunks are larger than 500 kB after minification. Consider:
+[23:55:15.028] - Using dynamic import() to code-split the application
+[23:55:15.028] - Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+[23:55:15.028] - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.[39m
+[23:55:15.028] [32m✓ built in 4.56s[39m
+[23:55:15.083] ✘ [ERROR] The entry point "server/index.ts" cannot be marked as external
+[23:55:15.084] 
+[23:55:15.086] 1 error
+[23:55:15.096] Error: Command "npm run build" exited with 1
